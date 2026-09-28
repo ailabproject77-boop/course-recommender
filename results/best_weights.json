@@ -1,0 +1,12 @@
+{
+  "weights": {
+    "content": 0.3,
+    "collab": 0.2,
+    "semester": 0.25,
+    "difficulty": 0.25
+  },
+  "validation_f1": 0.44651416122004284,
+  "hand_picked_validation_f1": 0.4222377840024894,
+  "test_f1_tuned": 0.4247011561826377,
+  "test_f1_hand_picked": 0.4016428244823307
+}

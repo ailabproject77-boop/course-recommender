@@ -1,0 +1,301 @@
+student_id,interests,skills,semester,preferred_difficulty
+S001,Systems & Networks;Data Science,data analysis;operating systems;parallel programming,7,3
+S002,Data Science;Software Engineering,automation;big data;data analysis;data visualization;design thinking;user interface,7,4
+S003,Cybersecurity;AI & Machine Learning,big data;cryptography;machine learning;networking;parallel programming;web security,8,2
+S004,Programming & Algorithms,logic;mathematics;python;security;software design,3,3
+S005,Web & Mobile;Data Science,cloud;python;statistics,7,4
+S006,Cybersecurity,blockchain;cryptography;distributed systems;mathematics;project management;risk analysis,8,3
+S007,Software Engineering;Cybersecurity;Data Science,cryptography;javascript;machine learning;security;sql;testing,4,2
+S008,Programming & Algorithms;Software Engineering,logic;nlp;operating systems;problem solving;recommendation;testing,7,3
+S009,Web & Mobile,javascript;software design;sql;user interface,8,4
+S010,Data Science;Mathematics & Theory,devops;linear algebra;python,4,3
+S011,Systems & Networks;Data Science,concurrency;devops;logic;protocols;recommendation,6,3
+S012,Web & Mobile,devops;java;python;statistics;web design,5,4
+S013,AI & Machine Learning;Mathematics & Theory,concurrency;machine learning;problem solving,3,3
+S014,Software Engineering;Systems & Networks,compilers;design thinking;software design;teamwork;user interface,4,3
+S015,Programming & Algorithms;Software Engineering,game programming;html css;java;linear algebra;logic,8,3
+S016,Programming & Algorithms,java;linear algebra;problem solving;project management,5,3
+S017,AI & Machine Learning;Mathematics & Theory;Web & Mobile,cloud;deep learning;javascript;logic;proofs,3,4
+S018,Systems & Networks;Software Engineering,assembly;circuits;cloud,6,3
+S019,Programming & Algorithms;Cybersecurity,automation;circuits;cryptography;java,7,2
+S020,Programming & Algorithms,mathematics;software design;testing,3,2
+S021,AI & Machine Learning;Systems & Networks,assembly;blockchain;linear algebra;statistics,4,3
+S022,Data Science,data mining;data pipelines;databases;machine learning,5,4
+S023,Programming & Algorithms;Systems & Networks,cloud;compilers;game programming;python,3,2
+S024,Software Engineering,cloud;teamwork;testing,7,4
+S025,Systems & Networks;Mathematics & Theory,data visualization;linux;web design,7,4
+S026,Web & Mobile,java;mobile development;penetration testing;web design,6,3
+S027,Mathematics & Theory;Data Science;Web & Mobile,automata;data mining;databases;linear algebra;statistics;teamwork,5,3
+S028,AI & Machine Learning;Web & Mobile,cloud;html css;machine learning;mathematics;mobile development,8,2
+S029,Software Engineering,design thinking;linux;search algorithms;testing;user interface,7,3
+S030,Web & Mobile;Data Science;Cybersecurity,data visualization;devops,4,3
+S031,Programming & Algorithms;Web & Mobile;Software Engineering,html css;javascript;logic;software design,7,3
+S032,Systems & Networks;Mathematics & Theory,automata;concurrency;embedded systems;mathematics;mobile development;statistics,6,3
+S033,Mathematics & Theory,data analysis;distributed systems;mathematics,4,3
+S034,AI & Machine Learning;Mathematics & Theory,automata;computer vision;deep learning,4,2
+S035,AI & Machine Learning;Programming & Algorithms,automation;python;search algorithms,8,3
+S036,Systems & Networks,automata;cloud;hardware;parallel programming,8,4
+S037,Software Engineering;Data Science;Cybersecurity,big data;data visualization;linear algebra;networking;recommendation,6,3
+S038,Software Engineering;Programming & Algorithms,game programming;logic;mathematics;operating systems;testing,4,2
+S039,Cybersecurity;Systems & Networks;Mathematics & Theory,algorithms;automata;big data;penetration testing;security,7,4
+S040,Cybersecurity;Mathematics & Theory,blockchain;linear algebra;mathematics,7,3
+S041,Web & Mobile;Software Engineering,mathematics;microservices;teamwork;user interface,4,2
+S042,Software Engineering;Web & Mobile,cloud;devops;web design,6,2
+S043,Cybersecurity;Programming & Algorithms,deep learning;game programming;linux;risk analysis;security,5,3
+S044,Mathematics & Theory,data analysis;logic;proofs,6,4
+S045,Mathematics & Theory;Systems & Networks;Data Science,compilers;data analysis;distributed systems;mathematics,6,2
+S046,AI & Machine Learning;Data Science,cloud;data pipelines,4,2
+S047,Systems & Networks;Mathematics & Theory;Programming & Algorithms,assembly;automata;java;statistics,5,3
+S048,Software Engineering,design thinking;javascript;project management;software design;user interface,8,3
+S049,Programming & Algorithms;Mathematics & Theory,game programming;linear algebra;statistics,6,3
+S050,Web & Mobile;Data Science,big data;linux;machine learning;microservices;recommendation,6,4
+S051,Mathematics & Theory;Software Engineering,cloud;data analysis;devops;linux;project management,3,4
+S052,Programming & Algorithms;Web & Mobile,algorithms;devops;distributed systems;javascript;sql,3,3
+S053,Web & Mobile;Software Engineering;Cybersecurity,compilers;design thinking;html css;project management;security;web security,6,4
+S054,Software Engineering,linux;project management;teamwork,3,2
+S055,Web & Mobile,javascript;software design;sql,5,3
+S056,Programming & Algorithms;Systems & Networks;Mathematics & Theory,compilers;game programming;hardware,7,3
+S057,Software Engineering,automation;cloud;devops;javascript;linux,5,4
+S058,Programming & Algorithms;Systems & Networks,cloud;compilers;distributed systems;embedded systems;linear algebra,5,3
+S059,Programming & Algorithms;Web & Mobile,cloud;microservices;search algorithms;sql,6,4
+S060,Cybersecurity;Programming & Algorithms;Software Engineering,java;linear algebra;python,8,2
+S061,Software Engineering;Systems & Networks,blockchain;cloud;javascript;testing,8,3
+S062,Programming & Algorithms;Software Engineering,cloud;linear algebra;mathematics;teamwork,3,3
+S063,Systems & Networks;Data Science,circuits;concurrency;distributed systems;protocols;recommendation,6,3
+S064,AI & Machine Learning,data mining;java;nlp;project management;search algorithms,4,4
+S065,Programming & Algorithms;Software Engineering,project management;python;teamwork,5,3
+S066,Mathematics & Theory;Web & Mobile,automata;html css;security;software design,5,2
+S067,Software Engineering,cloud;game programming;linux;testing,7,3
+S068,Mathematics & Theory,automata;data analysis;linear algebra;proofs,8,2
+S069,Cybersecurity,computer vision;penetration testing;security,4,3
+S070,Systems & Networks;AI & Machine Learning;Mathematics & Theory,computer vision;concurrency;deep learning;logic,4,2
+S071,Systems & Networks;Cybersecurity,automata;mathematics;protocols;web security,6,4
+S072,AI & Machine Learning;Data Science,cloud;data pipelines;devops;distributed systems;machine learning,8,4
+S073,AI & Machine Learning,linear algebra;problem solving;python;reinforcement learning;search algorithms,6,3
+S074,AI & Machine Learning;Data Science,circuits;computer vision;python;statistics,8,2
+S075,Programming & Algorithms;Data Science;Cybersecurity,circuits;data visualization;java;mathematics;security;statistics,7,3
+S076,Cybersecurity,distributed systems;javascript;networking;security,7,4
+S077,Data Science;Systems & Networks,linux;logic,3,3
+S078,AI & Machine Learning;Cybersecurity,blockchain;data modeling;distributed systems;problem solving,6,2
+S079,Programming & Algorithms;Data Science,automation;data analysis;data visualization,8,3
+S080,Programming & Algorithms,algorithms;game programming;logic;mathematics,8,3
+S081,AI & Machine Learning;Data Science,big data;data visualization;devops;problem solving;python,8,3
+S082,Programming & Algorithms;Mathematics & Theory;AI & Machine Learning,nlp;search algorithms;software design,4,3
+S083,Cybersecurity;Software Engineering,cloud;devops;penetration testing;project management;security;web security,6,4
+S084,Cybersecurity;Web & Mobile;Systems & Networks,hardware;javascript;logic;penetration testing;web design,5,3
+S085,Programming & Algorithms;AI & Machine Learning,circuits;deep learning;game programming;java;software design,3,3
+S086,Data Science;Mathematics & Theory,big data;linear algebra,6,4
+S087,Software Engineering;Mathematics & Theory,hardware;linux;project management;statistics,5,3
+S088,Mathematics & Theory;Web & Mobile;Cybersecurity,data analysis;html css;security,8,4
+S089,Web & Mobile;Systems & Networks;Programming & Algorithms,automata;protocols;sql,7,3
+S090,Mathematics & Theory;Cybersecurity,cryptography;logic;networking;security;statistics,5,2
+S091,Cybersecurity;Software Engineering,devops;proofs;testing;web security,8,3
+S092,Web & Mobile;Cybersecurity,mathematics;mobile development;security,6,3
+S093,Systems & Networks;AI & Machine Learning,algorithms;assembly;concurrency;deep learning;parallel programming,6,3
+S094,AI & Machine Learning;Programming & Algorithms,algorithms;deep learning;logic,7,3
+S095,Mathematics & Theory;AI & Machine Learning,computer vision;data analysis;python;statistics,5,3
+S096,AI & Machine Learning;Data Science,data mining;data pipelines;search algorithms,8,2
+S097,AI & Machine Learning;Software Engineering,cryptography;databases;linux;project management;python;software design,8,4
+S098,Systems & Networks,circuits;distributed systems;networking;protocols,4,4
+S099,Systems & Networks;Programming & Algorithms;Software Engineering,algorithms;game programming;networking;python;user interface,4,3
+S100,Mathematics & Theory,automata;linear algebra;mathematics;mobile development,6,2
+S101,Web & Mobile,automata;java;javascript;teamwork,6,2
+S102,Web & Mobile;Cybersecurity,cloud;cryptography;embedded systems;java;mobile development;sql,4,3
+S103,Mathematics & Theory;Systems & Networks,automata;circuits;distributed systems;linear algebra;operating systems,5,3
+S104,Software Engineering;Data Science;Mathematics & Theory,automation;data modeling;databases;logic,4,3
+S105,Cybersecurity;Web & Mobile,javascript;mathematics;microservices,6,4
+S106,Mathematics & Theory;Web & Mobile;Systems & Networks,algorithms;statistics,6,2
+S107,Software Engineering;Web & Mobile;AI & Machine Learning,linear algebra;linux;reinforcement learning;statistics,5,2
+S108,Systems & Networks,algorithms;circuits;cloud;distributed systems;html css,7,3
+S109,AI & Machine Learning,computer vision;nlp;reinforcement learning;search algorithms,4,4
+S110,Web & Mobile;Mathematics & Theory,automata;cloud;html css;java;logic;proofs,4,4
+S111,Cybersecurity;Programming & Algorithms,java;networking;risk analysis;security,8,3
+S112,Cybersecurity,javascript;penetration testing;user interface;web security,7,3
+S113,Mathematics & Theory;Systems & Networks;Programming & Algorithms,cloud;data analysis;logic;problem solving,4,3
+S114,AI & Machine Learning;Mathematics & Theory,automata;machine learning;reinforcement learning,3,4
+S115,Data Science;AI & Machine Learning,linear algebra;python;search algorithms;statistics,5,4
+S116,Mathematics & Theory;AI & Machine Learning,computer vision;mathematics;python,5,2
+S117,Cybersecurity,databases;distributed systems;javascript;networking;web security,4,3
+S118,Programming & Algorithms;Systems & Networks,embedded systems;game programming;networking;protocols,6,4
+S119,AI & Machine Learning;Data Science,data visualization;html css;operating systems,5,4
+S120,Systems & Networks,algorithms;compilers;computer vision;parallel programming,8,2
+S121,Programming & Algorithms,java;mathematics;problem solving;python,5,3
+S122,Data Science;Web & Mobile,big data;databases;javascript,4,4
+S123,AI & Machine Learning;Cybersecurity,blockchain;mathematics;penetration testing,3,4
+S124,Systems & Networks;Data Science,algorithms;data pipelines;databases;networking;operating systems,5,4
+S125,Mathematics & Theory,assembly;data analysis;proofs;statistics,4,4
+S126,Data Science;Programming & Algorithms,cloud;concurrency;logic;user interface,4,2
+S127,Web & Mobile;Systems & Networks,compilers;concurrency;game programming;logic;mobile development;software design,7,3
+S128,Cybersecurity,blockchain;cloud;linux;operating systems;recommendation;security,5,2
+S129,Mathematics & Theory;Data Science,data analysis;security;teamwork,7,2
+S130,Data Science;Cybersecurity,cloud;data mining;logic;penetration testing,7,4
+S131,Software Engineering;AI & Machine Learning;Web & Mobile,linear algebra;parallel programming;problem solving;user interface,3,3
+S132,Mathematics & Theory;Programming & Algorithms,algorithms;automata;data mining;deep learning;linear algebra,8,3
+S133,AI & Machine Learning;Software Engineering;Mathematics & Theory,computer vision;data analysis;linear algebra;logic;statistics,5,3
+S134,Mathematics & Theory,data analysis;logic;mathematics,8,3
+S135,AI & Machine Learning;Data Science,big data;data modeling;data visualization;deep learning;linear algebra,8,2
+S136,Mathematics & Theory,automata;logic;security;statistics,7,4
+S137,Data Science;Web & Mobile;AI & Machine Learning,data mining;databases;embedded systems;nlp;problem solving,3,2
+S138,Mathematics & Theory,automata;concurrency;linear algebra;proofs,3,2
+S139,Cybersecurity;Mathematics & Theory,automata;javascript;protocols;risk analysis;web security,7,4
+S140,Web & Mobile,cloud;microservices;web design,6,4
+S141,Systems & Networks;AI & Machine Learning,concurrency;distributed systems;embedded systems;networking;nlp;protocols,5,3
+S142,Software Engineering;Programming & Algorithms;Systems & Networks,distributed systems;linux;mathematics;operating systems,5,3
+S143,Cybersecurity,python;risk analysis,6,3
+S144,Cybersecurity,mathematics;penetration testing;risk analysis;security,4,3
+S145,AI & Machine Learning,data modeling;python;reinforcement learning,3,2
+S146,Data Science;Cybersecurity;Web & Mobile,circuits;data pipelines;data visualization;databases;security;web design,6,3
+S147,Data Science;Web & Mobile,javascript;python;statistics;web design,6,3
+S148,Systems & Networks;AI & Machine Learning,cloud;logic;statistics,4,3
+S149,Systems & Networks,circuits;networking;operating systems;parallel programming;protocols,8,3
+S150,AI & Machine Learning;Software Engineering;Data Science,deep learning;devops;linux;testing,6,3
+S151,Software Engineering;AI & Machine Learning,big data;search algorithms;teamwork,7,4
+S152,Cybersecurity,assembly;computer vision;penetration testing;security,4,4
+S153,Data Science;Programming & Algorithms;Systems & Networks,blockchain;cloud;data modeling;networking,5,3
+S154,AI & Machine Learning;Cybersecurity,cryptography;linear algebra;penetration testing;python,8,4
+S155,Software Engineering;Systems & Networks,networking;project management;software design;teamwork,5,2
+S156,Systems & Networks;AI & Machine Learning;Software Engineering,circuits;cloud;devops;project management;software design;statistics,6,3
+S157,Programming & Algorithms;Systems & Networks,concurrency;cryptography;java;logic;mathematics;networking,7,3
+S158,Data Science,algorithms;data pipelines;recommendation;testing,7,2
+S159,Mathematics & Theory,automata;logic;mathematics;proofs;statistics,5,3
+S160,Systems & Networks;Programming & Algorithms,cloud;compilers;python,7,2
+S161,Systems & Networks;Cybersecurity;Mathematics & Theory,circuits;distributed systems;penetration testing;statistics;web design,5,3
+S162,Systems & Networks;Cybersecurity,deep learning;devops;networking;parallel programming;protocols,5,3
+S163,Data Science,big data;data analysis;data mining;devops;logic,4,3
+S164,Data Science;Programming & Algorithms,data modeling;embedded systems;linear algebra;networking;software design,7,2
+S165,Mathematics & Theory;Systems & Networks,distributed systems;embedded systems;hardware;operating systems,6,3
+S166,Web & Mobile;Data Science,assembly;data modeling;databases;machine learning;sql;web design,3,3
+S167,Software Engineering;Web & Mobile,deep learning;linux;project management,7,3
+S168,Software Engineering;Data Science,data mining;project management,6,3
+S169,Cybersecurity,linux;risk analysis;security,8,4
+S170,AI & Machine Learning,deep learning;machine learning;problem solving;reinforcement learning,5,4
+S171,Web & Mobile,html css;java;microservices;sql,8,3
+S172,AI & Machine Learning;Web & Mobile,linear algebra;reinforcement learning;software design,3,4
+S173,Systems & Networks;Programming & Algorithms;Data Science,devops;hardware;logic;python,7,2
+S174,Software Engineering,automation;cloud;design thinking;software design;testing,6,3
+S175,Web & Mobile;Cybersecurity,mobile development;networking;proofs;teamwork,3,4
+S176,Software Engineering,linux;software design,7,3
+S177,Software Engineering,automation;cloud;data mining;linux;testing,4,3
+S178,Data Science;Programming & Algorithms,data pipelines;devops;problem solving,3,3
+S179,AI & Machine Learning;Systems & Networks,game programming;linux;parallel programming;statistics,4,3
+S180,Data Science;Programming & Algorithms,big data;data analysis;devops;software design,4,2
+S181,Systems & Networks;Data Science,assembly;cloud;machine learning;sql,3,3
+S182,Mathematics & Theory;Systems & Networks,automata;networking;parallel programming,3,3
+S183,Mathematics & Theory;Systems & Networks;Data Science,automata;data analysis;logic,8,3
+S184,AI & Machine Learning,data pipelines;mathematics;problem solving;reinforcement learning;statistics,3,3
+S185,Software Engineering;Data Science,big data;data modeling;design thinking;statistics,4,4
+S186,Data Science;Programming & Algorithms,data modeling;databases;devops,8,3
+S187,Software Engineering;Cybersecurity,blockchain;data analysis;javascript,7,3
+S188,Mathematics & Theory;Data Science,cloud;data analysis;data mining;sql,6,3
+S189,Data Science,automata;big data;data analysis;data pipelines;databases,4,2
+S190,Web & Mobile,java;mobile development;web design,5,2
+S191,Software Engineering;Systems & Networks,circuits;hardware;networking;penetration testing;risk analysis;software design,4,2
+S192,Cybersecurity,javascript;linux;networking;risk analysis;security,7,4
+S193,Mathematics & Theory;AI & Machine Learning;Web & Mobile,logic;software design,6,3
+S194,Data Science;Mathematics & Theory,databases;linear algebra;logic;machine learning;python,7,3
+S195,Web & Mobile;Systems & Networks,automata;cloud;embedded systems;networking;web design,6,3
+S196,Cybersecurity;Systems & Networks,data visualization;embedded systems;javascript;mathematics,8,3
+S197,Systems & Networks;Data Science,data analysis;linux;microservices,3,4
+S198,Systems & Networks;Cybersecurity;Web & Mobile,automata;html css;penetration testing;risk analysis,7,3
+S199,Data Science;Mathematics & Theory,cloud;mathematics;web security,3,3
+S200,Cybersecurity;Systems & Networks,cloud;parallel programming,7,3
+S201,Cybersecurity;Systems & Networks,algorithms;distributed systems;machine learning,4,3
+S202,Data Science;Systems & Networks,data modeling;linux;machine learning;protocols,4,3
+S203,Programming & Algorithms,data mining;linear algebra;python;software design,3,3
+S204,Programming & Algorithms,game programming;logic;problem solving;python,5,3
+S205,AI & Machine Learning;Cybersecurity;Systems & Networks,compilers;embedded systems;mathematics;penetration testing,5,3
+S206,Programming & Algorithms;Systems & Networks,automata;java;linear algebra;operating systems,8,2
+S207,Web & Mobile,cloud;java;microservices;software design,5,4
+S208,AI & Machine Learning;Web & Mobile;Systems & Networks,machine learning;mobile development;recommendation;risk analysis;teamwork;web design,6,2
+S209,Software Engineering;AI & Machine Learning,cloud;computer vision;data visualization;linear algebra;linux;problem solving,8,3
+S210,Systems & Networks;Software Engineering,concurrency;parallel programming;testing,3,3
+S211,Cybersecurity;Systems & Networks;Web & Mobile,automation;cloud;data pipelines;networking;sql,6,3
+S212,AI & Machine Learning;Programming & Algorithms,logic;mathematics;mobile development;search algorithms;statistics,5,3
+S213,AI & Machine Learning,computer vision;machine learning;nlp;search algorithms;web design,3,3
+S214,Programming & Algorithms;AI & Machine Learning,algorithms;concurrency;java;mathematics;reinforcement learning,5,3
+S215,Software Engineering;Systems & Networks,automation;compilers;embedded systems;project management;testing,5,4
+S216,Cybersecurity;Systems & Networks;AI & Machine Learning,assembly;automata;mathematics;nlp;reinforcement learning,7,2
+S217,AI & Machine Learning;Systems & Networks,circuits;cloud;computer vision;distributed systems;problem solving,4,3
+S218,Web & Mobile;Cybersecurity;Software Engineering,automation;machine learning;mathematics;project management;teamwork,6,3
+S219,Data Science,cloud;computer vision;python;sql;statistics,3,4
+S220,Programming & Algorithms;Cybersecurity;Web & Mobile,cloud;html css;java;linux;mobile development;software design,6,2
+S221,Systems & Networks,algorithms;automata;networking;parallel programming,7,3
+S222,Data Science;Mathematics & Theory,big data;data visualization;mathematics;sql,7,3
+S223,Mathematics & Theory;Systems & Networks,compilers;embedded systems,7,2
+S224,Data Science,data modeling;data pipelines;databases;python;recommendation;sql,6,2
+S225,Programming & Algorithms;Mathematics & Theory,automata;linux;machine learning;mathematics;python;software design,3,2
+S226,Data Science,algorithms;big data;data analysis;data pipelines;data visualization;python,5,3
+S227,AI & Machine Learning;Web & Mobile,big data;javascript;linear algebra;python,8,3
+S228,Programming & Algorithms,algorithms;mathematics;problem solving;python;software design,7,2
+S229,Systems & Networks;Web & Mobile,data visualization;operating systems;reinforcement learning,7,3
+S230,Systems & Networks;Cybersecurity,compilers;computer vision;logic;software design,6,4
+S231,Programming & Algorithms;Software Engineering;AI & Machine Learning,computer vision;linear algebra;logic;testing,3,3
+S232,Software Engineering;Mathematics & Theory,linux;mathematics;project management,6,3
+S233,Systems & Networks;Cybersecurity,compilers;embedded systems;linux;penetration testing;web security,8,2
+S234,Cybersecurity,linux;mathematics;networking,6,4
+S235,Cybersecurity;Data Science,blockchain;cryptography;data modeling;data visualization;sql,7,3
+S236,Cybersecurity;Software Engineering,design thinking;javascript;mathematics;penetration testing;security;web design,4,3
+S237,Data Science;Programming & Algorithms,cloud;data mining;data visualization;machine learning;mathematics;statistics,4,4
+S238,AI & Machine Learning,python;reinforcement learning;search algorithms;statistics,7,3
+S239,Cybersecurity;Mathematics & Theory;Software Engineering,penetration testing;problem solving;testing,6,3
+S240,Software Engineering;Systems & Networks;Web & Mobile,logic;parallel programming;problem solving,6,3
+S241,Mathematics & Theory;Software Engineering,cloud;data analysis;html css;mathematics;teamwork,8,3
+S242,Cybersecurity,risk analysis;web security,3,3
+S243,Systems & Networks;Mathematics & Theory,automata;circuits;distributed systems;statistics,3,3
+S244,Systems & Networks;Cybersecurity,hardware;linux;networking;security;testing,5,3
+S245,AI & Machine Learning;Web & Mobile;Software Engineering,algorithms;cloud;mobile development;project management,3,4
+S246,Mathematics & Theory,automata;data analysis;statistics,8,3
+S247,Cybersecurity,algorithms;cryptography;mathematics;networking;software design;web security,7,4
+S248,Data Science;AI & Machine Learning;Mathematics & Theory,data modeling;mathematics;proofs;sql,3,3
+S249,Software Engineering;Mathematics & Theory,mathematics;proofs;user interface,3,4
+S250,Web & Mobile;AI & Machine Learning,algorithms;deep learning;nlp,4,4
+S251,Programming & Algorithms,algorithms;automata;mathematics;python,3,4
+S252,Data Science;AI & Machine Learning,cryptography;data analysis;data visualization;linear algebra;nlp;sql,3,3
+S253,Web & Mobile;AI & Machine Learning,computer vision;search algorithms;sql,3,3
+S254,Cybersecurity,cryptography;mathematics;risk analysis;security;sql;web security,6,4
+S255,Data Science;Mathematics & Theory,data analysis;data modeling;data visualization;user interface,8,3
+S256,Mathematics & Theory;Data Science,cloud;databases;networking;proofs,5,4
+S257,AI & Machine Learning;Programming & Algorithms;Data Science,algorithms;compilers;data mining;machine learning;software design;statistics,6,2
+S258,Programming & Algorithms;Web & Mobile,cloud;data mining;protocols;python,4,4
+S259,Cybersecurity,distributed systems;javascript;penetration testing,5,4
+S260,Programming & Algorithms,algorithms;python;search algorithms,8,3
+S261,Data Science;Programming & Algorithms;Mathematics & Theory,automata;data visualization;machine learning,7,3
+S262,Software Engineering;Systems & Networks,algorithms;cloud;distributed systems;networking;teamwork,5,3
+S263,Programming & Algorithms;AI & Machine Learning,deep learning;linear algebra;problem solving,7,3
+S264,Systems & Networks;AI & Machine Learning,algorithms;logic;machine learning;protocols;search algorithms,4,4
+S265,Programming & Algorithms,algorithms;assembly;computer vision;problem solving;software design,8,3
+S266,AI & Machine Learning;Programming & Algorithms,algorithms;game programming;problem solving;python;search algorithms,7,4
+S267,Data Science,big data;machine learning;penetration testing;recommendation,5,3
+S268,Data Science;Software Engineering,data pipelines;devops;project management;software design;statistics,5,3
+S269,Cybersecurity,blockchain;cryptography;javascript;mathematics,3,2
+S270,Systems & Networks,algorithms;circuits;compilers;devops;parallel programming;protocols,7,2
+S271,Web & Mobile,circuits;cloud;devops;java;logic,7,4
+S272,Software Engineering,cloud;linux;recommendation,6,2
+S273,Data Science,big data;data mining;data pipelines;machine learning;sql,8,3
+S274,Cybersecurity;Mathematics & Theory,cryptography;linear algebra;security;web design,7,2
+S275,AI & Machine Learning;Programming & Algorithms,game programming;nlp;software design;statistics;user interface,7,4
+S276,Web & Mobile;AI & Machine Learning,cloud;computer vision;deep learning;reinforcement learning;statistics;web design,4,2
+S277,Software Engineering;Programming & Algorithms;Systems & Networks,automata;networking;problem solving;proofs,7,3
+S278,Programming & Algorithms;Software Engineering;Data Science,big data;embedded systems;game programming;operating systems,7,3
+S279,Cybersecurity,javascript;sql;web security,3,4
+S280,Cybersecurity;Web & Mobile,deep learning;design thinking;distributed systems;mathematics;microservices,8,3
+S281,Cybersecurity,blockchain;networking;penetration testing;risk analysis,5,3
+S282,Cybersecurity;Programming & Algorithms,algorithms;data analysis;hardware;linear algebra;security,3,2
+S283,Programming & Algorithms;Software Engineering,algorithms;cloud;problem solving,5,3
+S284,Cybersecurity;Systems & Networks;Programming & Algorithms,cloud;html css;logic,7,2
+S285,Cybersecurity;Mathematics & Theory,assembly;blockchain;linear algebra;web security,6,2
+S286,Software Engineering,cloud;design thinking;devops;hardware;linux,4,4
+S287,AI & Machine Learning,design thinking;machine learning;nlp;reinforcement learning;statistics,3,2
+S288,Data Science,data pipelines;databases,6,3
+S289,Programming & Algorithms,compilers;game programming;logic;microservices,6,4
+S290,Cybersecurity,blockchain;compilers;cryptography;design thinking;networking,4,2
+S291,Data Science,databases;networking;software design;sql;statistics,5,2
+S292,Software Engineering;AI & Machine Learning,cloud;nlp;search algorithms;teamwork;testing,5,3
+S293,AI & Machine Learning;Systems & Networks,cloud;data pipelines;python,5,4
+S294,Data Science;Systems & Networks,data mining;databases;linux;protocols,8,3
+S295,Programming & Algorithms,cloud;java;linear algebra;software design;statistics,8,3
+S296,Cybersecurity;Programming & Algorithms,game programming;networking;penetration testing,8,2
+S297,Programming & Algorithms;AI & Machine Learning,algorithms;computer vision;software design;statistics,6,4
+S298,Software Engineering;Data Science,automata;data mining;project management;software design;teamwork,6,2
+S299,Programming & Algorithms;Cybersecurity,distributed systems;logic;python;software design,6,2
+S300,Programming & Algorithms,game programming;linear algebra;logic;python,6,2

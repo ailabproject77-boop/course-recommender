@@ -1,0 +1,24 @@
+=== DATA SPLIT ===
+Train (fit CB/CF while tuning):  4509 ratings
+Validation (tune weights)     :  1456 ratings
+Test (final score only)       :  1472 ratings
+
+=== FITTING MODELS (on TRAIN part) ===
+Content-Based : TF-IDF fitted on 48 courses, vocabulary = 344 terms  (4 ms)
+Collaborative : rating matrix 300 students x 48 courses, 4509 ratings, density 31.3%; similarity matrix 48x48  (8 ms)
+
+=== TUNING HYBRID WEIGHTS (grid search on VALIDATION) ===
+1771 weight combinations (step 0.05) x 255 validation students
+Hand-picked (0.35, 0.35, 0.15, 0.15) -> validation F1@5 = 0.422
+Best found  (0.3, 0.2, 0.25, 0.25) -> validation F1@5 = 0.447
+Range over the whole grid: 0.276 to 0.447
+
+=== FINAL MODELS (fitted on ALL training data) - TEST SCORES ===
+| Model | Precision@5 | Recall@5 | F1@5 | Prereq violation rate | Time (ms/student) |
+|---|---|---|---|---|---|
+| Content-Based | 0.191 | 0.547 | 0.271 | 0.432 | 3.037 |
+| Collaborative Filtering | 0.132 | 0.341 | 0.183 | 0.169 | 0.933 |
+| Hybrid (hand-picked weights) | 0.286 | 0.775 | 0.402 | 0.000 | 3.520 |
+| Hybrid (tuned weights) | 0.304 | 0.815 | 0.425 | 0.000 | 3.517 |
+
+Saved: models/*.joblib, results/best_weights.json, tuning_top10.csv, tuning_chart.png, final_test_comparison.csv, training_log.txt
