@@ -56,23 +56,23 @@ To solve this, our project implements an **Academic-Aware Hybrid Recommender** t
 
 ---
 
-## 🔬 Methodology
+## 🔬 Methodology & Theoretical Foundations
 
-1. **Content-Based Filtering (CB)**:
-   - Course features (title, department, skill tags, syllabus text) are converted into TF-IDF vectors.
-   - A student profile vector is computed from stated interests, acquired skills, and past highly-rated courses.
-   - Cosine similarity produces initial relevance scores.
+1. **Content-Based Filtering (CB)** *([Lops et al., 2011](#references); [Salton & Buckley, 1988](#references))*:
+   - Course features (title, department, skill tags, syllabus description) are tokenized and transformed into TF-IDF vector representations.
+   - A student profile vector is dynamically synthesized from stated interests, acquired skills, and past highly-rated courses.
+   - Cosine similarity between student profile and candidate course vectors generates content relevance scores.
 
-2. **Collaborative Filtering (CF)**:
-   - Uses an Item-Based Collaborative Filtering approach: *"Students who enrolled in and liked Course A also liked Course B"*.
-   - A course-course co-rating similarity matrix is computed.
-   - Recommendations are scored based on the student's rating history.
+2. **Collaborative Filtering (CF)** *([Sarwar et al., 2001](#references))*:
+   - Implements an Item-Based Collaborative Filtering formulation: *"Students who enrolled in and rated Course $i$ favorably also took Course $j$"*.
+   - An adjusted course-course co-enrollment similarity matrix is computed over student rating vectors.
+   - Candidate scores are computed as the similarity-weighted sum of positive feedback on previously taken courses.
 
-3. **Academic-Aware Hybrid Scoring**:
-   - Scores from CB and CF are normalized to $[0, 1]$.
-   - A composite score is calculated using grid-search tuned weights:
+3. **Academic-Aware Hybrid Scoring** *([Burke, 2002](#references); [Elbadrawy & Karypis, 2016](#references))*:
+   - Scores from CB and CF are min-max normalized to $[0, 1]$.
+   - A linear combination is evaluated using empirical weights determined via validation grid search:
      $$\text{Score} = 0.30 \cdot S_{\text{CB}} + 0.20 \cdot S_{\text{CF}} + 0.25 \cdot \text{SemesterFit} + 0.25 \cdot \text{DifficultyFit}$$
-   - **Prerequisite Validation**: Any course whose prerequisites have not been completed in an earlier semester is strictly eliminated.
+   - **Prerequisite Validation Filter**: A hard pedagogical constraint filter masks out any candidate course whose prerequisites have not been completed in a preceding semester.
 
 ---
 
@@ -201,6 +201,19 @@ streamlit run app.py
 ├── LICENSE                      # MIT License
 └── README.md                    # Project documentation
 ```
+
+---
+
+<a id="references"></a>
+## 📚 References & Background Literature
+
+1. **Sarwar, B., Karypis, G., Konstan, J., & Riedl, J. (2001).** "Item-based collaborative filtering recommendation algorithms." In *Proceedings of the 10th International Conference on World Wide Web (WWW '01)*, pp. 285–295. DOI: [10.1145/371920.372071](https://doi.org/10.1145/371920.372071)
+2. **Burke, R. (2002).** "Hybrid recommender systems: Survey and experiments." *User Modeling and User-Adapted Interaction*, 12(4), pp. 331–370. DOI: [10.1023/A:1021240730564](https://doi.org/10.1023/A:1021240730564)
+3. **Elbadrawy, A., & Karypis, G. (2016).** "Domain-aware grade prediction and top-n course recommendation." In *Proceedings of the 10th ACM Conference on Recommender Systems (RecSys '16)*, pp. 183–190. DOI: [10.1145/2959100.2959133](https://doi.org/10.1145/2959100.2959133)
+4. **Lops, P., De Gemmis, M., & Semeraro, G. (2011).** "Content-based recommender systems: State of the art and trends." In *Recommender Systems Handbook*, Springer, Boston, MA, pp. 73–105. DOI: [10.1007/978-0-387-85820-3_3](https://doi.org/10.1007/978-0-387-85820-3_3)
+5. **Salton, G., & Buckley, C. (1988).** "Term-weighting approaches in automatic text retrieval." *Information Processing & Management*, 24(5), pp. 513–523. DOI: [10.1016/0306-4573(88)90021-0](https://doi.org/10.1016/0306-4573(88)90021-0)
+6. **Guruge, D. B., Kadel, R., & Halder, S. J. (2021).** "The state of the art in course recommendation systems for higher education: A systematic review." *Computers and Education: Artificial Intelligence*, 2, 100020. DOI: [10.1016/j.caeai.2021.100020](https://doi.org/10.1016/j.caeai.2021.100020)
+7. **Ricci, F., Rokach, L., & Shapira, B. (Eds.). (2015).** *Recommender Systems Handbook* (2nd ed.). Springer, New York. ISBN: 978-1-4899-7637-6.
 
 ---
 
