@@ -199,8 +199,7 @@ streamlit run app.py
 ├── generate_dataset.py          # Synthetic dataset generator with prerequisite logic
 ├── requirements.txt             # Python package dependencies
 ├── LICENSE                      # MIT License
-├── README.md                    # Project documentation
-└── REPORT_AND_VIVA.md           # Academic project report, viva Q&A, and presentation guide
+└── README.md                    # Project documentation
 ```
 
 ---
@@ -210,7 +209,6 @@ streamlit run app.py
 - **Course**: Artificial Intelligence Laboratory
 - **Degree**: B.Tech / B.E. Computer Science & Engineering
 - **Institution**: AI Lab Project
-- **Documentation**: Detailed viva preparation and report writeup can be found in [REPORT_AND_VIVA.md](REPORT_AND_VIVA.md).
 
 ---
 
